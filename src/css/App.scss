@@ -12,16 +12,30 @@
     display: flex;
     font-size:2rem;
     margin:0;
+    margin-block-start:0;
+    margin-block-end:0;
   }
 }
 
 header {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
+  padding:2rem 0;
 }
 
 .deksia-logo {
   display:flex;
+  margin-right:2rem;
+}
+
+.c-log {
+  display: block;
+  width:100px;
+  position: relative;
+  margin:1.5rem auto;
+  padding:1.5rem;
+  border:1px solid #111;
+  border-radius:0.3rem;
 }
